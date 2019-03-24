@@ -1,0 +1,171 @@
+/* CSS Document */
+
+body, html{
+margin:0 auto auto 0;
+height:100%;
+width:100%;
+}
+#main-container{
+height:auto;
+width:100%;
+background-color:#f5f5f5; /*ede9ce light-yellow*/
+}
+
+#navigation{
+width:100%;
+height:auto;
+margin:0 0 0 0;
+background-color:#24a3b5;
+display:flex;
+}
+#logo{
+height:3%;
+width:3%;
+margin-left:3%;
+margin-top:0.3%;
+}
+#nav{
+height:auto;
+margin-left:auto;
+margin-right:5%;
+}
+#nav ul{
+list-style:none;
+align-items:center;
+}
+#nav ul li{
+display:inline-block;
+padding-left:1.2em;
+text-decoration:none;
+}
+a{
+text-decoration:none;
+color:#FFFFFF;
+font-family:Geneva, Arial, Helvetica, sans-serif;
+}
+a#nav-home:hover{
+color:#ffc04c;}
+a#nav-sign-up:hover{
+color:#2f5e83;}
+a#nav-sign-in:hover{
+color:#ffff66;}
+a#nav-track:hover{
+color:#deded9;}
+
+#nav ul li a{
+-moz-transition: color 0.2s ease-in-out;
+-webkit-transition: color 0.2s ease-in-out;
+-o-transition: color 0.2s ease-in-out;
+-ms-transition: color 0.2s ease-in-out;
+transition: color 0.2s ease-in-out;	
+text-decoration: none;
+}
+#menu{
+position:static;
+background-color:#e59400; /*#24a3b5 good color*/
+height:auto;
+width:100%;
+display:inline-block;
+margin:1% 0 1% 0;
+overflow:visible;
+}
+#menu ul{
+margin:0 0 0 3%;
+}
+#menu ul li{
+display:inline-block;
+text-decoration:none;
+height:auto;
+width:auto;
+padding:10px 10px;
+}
+#menu ul li a{
+padding:10px 5px;
+width:auto;
+font-size:17px;
+}
+#menu ul li a:hover{
+background-color:#FFFFFF;
+color:#e59400;}
+
+#search-button{
+background-color:#24a3b5;
+	border: none;
+    color: white;
+    padding: 9px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+	cursor: pointer;
+}
+#search-field{
+padding:9px 5px;}
+
+.box{ 
+position:relative;
+width:95%;
+height:auto; /*temp*/
+margin:0.5% auto 2% auto;
+box-shadow:rgb(202, 197, 197) 15px 5px 15px;
+}
+
+#section-container{
+width:100%;
+height:auto;
+}
+.item-container{
+width:auto;
+display:table;
+margin:0 auto 2em auto;
+height:auto;}
+
+.items{
+float:left;
+display:block;
+width:auto;
+height:auto;
+border:1px solid #fff;
+margin:0 0 0 1em;
+background-color:#fdf9f2;
+vertical-align:middle;
+position:relative;}
+
+.image{
+margin:8px 8px;
+width:200px;
+height:240px;
+background-color:#FFFFFF;
+}
+
+.item-detail p, .orange{
+font-family:Arial, Helvetica, sans-serif;
+font-size:16px;font-weight:600;color:#000;
+text-align:center;
+}
+.item-detail .price{
+font-family:"Courier New", Courier, monospace;
+color:#65becb;}
+
+#footer{
+width:100%;
+padding-bottom:1em;
+height:auto;
+background-color:#434343;}
+
+.footer-container{
+margin:0 auto;
+width:90%;
+display:table;
+height:auto;}
+
+.footer-box{
+float:left;
+display:block;
+margin:1em 2em 0 2em;;
+padding:0 1em 0 1em;
+height:auto;
+width:200px;}
+
+
+
+
